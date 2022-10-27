@@ -1,6 +1,10 @@
 header {
-  background-color: cyan;
-  padding: 2rem;
+  background-image: linear-gradient(to bottom, #474d89, #27272d, #17171b);
+  padding-top: 5.1rem;
   color: black;
   text-align: center;
+}
+
+.container {
+  padding-inline: 30rem;
 }

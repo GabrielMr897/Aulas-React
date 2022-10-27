@@ -4,3 +4,19 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.socialMediaGit {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  color: white;
+  align-items: center;
+}
+
+.socialMediaGit svg g {
+  fill: white;
+}
+
+.socialMediaGit svg path {
+  fill: white;
+}
