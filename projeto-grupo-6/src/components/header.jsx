@@ -14,7 +14,9 @@ function header() {
             <nav>
             <a href="http://localhost:5173/" className='logo'>
                 <img src={LOGO} alt="logo The box" />
-                <h3>The box</h3>
+                <h3>
+                    <i>The</i>Box
+                </h3>
             </a>
 
             <ul>
@@ -46,8 +48,10 @@ function header() {
             </ul>
             </nav>
 
+        <div className='mainHeader'>
 
-        <img src={wpp} alt="" className='mainHeader'/>
+        <img src={wpp} alt="" />
+        </div>
 
         </header>
     );
