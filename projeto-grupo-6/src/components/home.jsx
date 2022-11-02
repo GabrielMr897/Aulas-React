@@ -1,5 +1,5 @@
 
-import './home.css'
+import './home.modules.css'
 
 import IconSupport from '../assets/iconS.png'
 
