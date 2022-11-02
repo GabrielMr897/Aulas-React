@@ -1,5 +1,7 @@
 
-import './home.modules.css'
+import { useState  } from 'react'
+
+import './home.css'
 
 import IconSupport from '../assets/iconS.png'
 
@@ -12,9 +14,13 @@ import Eletric from '../assets/Eletric.png'
 import Renovation from '../assets/Renovation.png'
 import Repair from '../assets/Repair.png'
 
-import { boxService } from './styles.js'
+import { BoxService } from './styles.js'
 
-function main() {
+function Home() {
+
+    const [boolean, setBoolean] = useState(true)
+
+
   return (
         <main >
             <div className="reputation container">
@@ -44,30 +50,36 @@ function main() {
                 <h2>Services</h2>
 
                 <div className="boxes">
-                    <boxService isBlue="false">
+                    <BoxService isBlue={!boolean}>
                         <img src={Construction} alt="" />
+                        <hr  isBlue={!boolean}/>
                         <h4>Construction</h4>
-                    </boxService>
-                    <boxService isBlue="true">
-                        <img src={Architeture} alt="" />
+                    </BoxService>
+                    <BoxService isBlue={boolean}>
+                        <img  src={Architeture} alt="" />
+                        <hr  isBlue={boolean} />
                         <h4>Architecture</h4>
-                    </boxService>
-                    <boxService isBlue="false">
-                        <img src={Consultation} alt="" />
+                    </BoxService>
+                    <BoxService isBlue={!boolean}>
+                        <img  src={Consultation} alt="" />
+                        <hr  isBlue={!boolean}/>
                         <h4>Consultation</h4>
-                    </boxService>
-                    <boxService isBlue="true">
-                        <img src={Eletric} alt="" />
+                    </BoxService>
+                    <BoxService isBlue={boolean}>
+                        <img  src={Eletric} alt="" />
+                        <hr   isBlue={boolean}/>
                         <h4>Eletric</h4>
-                    </boxService>
-                    <boxService isBlue="false">
-                        <img src={Renovation} alt="" />
+                    </BoxService>
+                    <BoxService isBlue={!boolean}>
+                        <img  src={Renovation} alt="" />
+                        <hr   isBlue={!boolean}/>
                         <h4>Renovation</h4>
-                    </boxService>
-                    <boxService isBlue="true">
-                        <img src={Repair} alt="" />
+                    </BoxService>
+                    <BoxService isBlue={boolean}>
+                        <img  src={Repair} alt="" />
+                        <hr  isBlue={boolean} />
                         <h4>Repair Services</h4>
-                    </boxService>
+                    </BoxService>
                 </div>
             </div>
         </main>
@@ -75,4 +87,4 @@ function main() {
     );
 }
 
-export default main;
+export default Home;

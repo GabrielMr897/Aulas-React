@@ -36,10 +36,11 @@
   background-color: #f6f8f7;
 }
 
-.sevices .boxes {
+.services .boxes {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 10rem;
   flex-wrap: wrap;
 }

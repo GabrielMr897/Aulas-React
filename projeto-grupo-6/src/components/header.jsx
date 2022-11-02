@@ -3,7 +3,7 @@ import LOGO from '../assets/logo.png'
 
 import wpp from '../assets/Hero.png'
 
-import './header.modules.css'
+import './header.css'
 
 
 
