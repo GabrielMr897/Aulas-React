@@ -5,6 +5,11 @@ export const BoxService = styled.div`
 background: ${props => props.isBlue ? '#2947A9' : '#ffffff'};
 color: ${props => props.isBlue ? '#ffffff' : '#2947A9'};
 
+/*&:hover {
+  background-color: ${props => props.isBlue ? '#ffffff' : '#2947A9'};
+  color: ${props => props.isBlue ? '#2947A9' : '#ffffff'};
+}*/
+
 display: flex;
 flex-direction: column;
 align-items: center;

@@ -34,6 +34,9 @@
 
 .services {
   background-color: #f6f8f7;
+  margin-top: 6rem;
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
 }
 
 .services .boxes {
@@ -43,4 +46,8 @@
   justify-content: center;
   gap: 10rem;
   flex-wrap: wrap;
+}
+
+.services h2 {
+  margin-bottom: 3.5rem;
 }

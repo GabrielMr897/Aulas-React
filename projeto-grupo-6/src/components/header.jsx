@@ -5,8 +5,6 @@ import wpp from '../assets/Hero.png'
 
 import './header.css'
 
-
-
 function header() {
 
     return (
@@ -47,6 +45,8 @@ function header() {
                 </li>
             </ul>
             </nav>
+
+        
 
         <div className='mainHeader'>
 

@@ -50,4 +50,6 @@ header nav ul li:nth-of-type(5) a {
 
 header .mainHeader img {
   width: 100%;
+  object-fit: cover;
+  position: relative;
 }
